@@ -1,0 +1,22 @@
+{
+    env: {
+        PATH: "echo $PWD/node_modules/.bin:$PATH"
+    },
+    targets: {
+        'build/index.js': {
+            dependencies: ['src/*.ts'],
+            run: "esbuild src/index.ts --outdir=build --bundle --sourcemap --splitting --platform=node --format=esm --external:obsidian"
+        },
+        'build/package.json': {
+            dependencies: ['package.json', 'makefile.json5'],
+            run: "cat package.json | jq -r '. * .deploy * {deploy:null} | with_entries(select(.value |. != null))' > build/package.json"
+        },
+
+        // phony
+
+        clean: {
+            phony: true,
+            run: "rm -rf build node_modules *lock* *yarn* *pnpm*"
+        }
+    }
+}

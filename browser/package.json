@@ -1,0 +1,25 @@
+{
+    "name": "browser",
+    "main": "./build/index.js",
+    "type": "module",
+    "dependencies": {
+        "@j-cake/jcake-utils": "latest",
+        "chalk": "latest",
+        "obsidian": "latest"
+    },
+    "devDependencies": {
+        "@types/node": "latest",
+        "@j-cake/mkjson": "latest",
+        "typescript": "latest",
+        "esbuild": "latest"
+    },
+    "imports": {
+        "#app": "./build/index.js"
+    },
+    "deploy": {
+        "main": "run.js",
+        "imports": {
+            "#app": "./index.js"
+        }
+    }
+}

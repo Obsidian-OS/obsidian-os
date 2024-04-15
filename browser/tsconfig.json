@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "module": "esnext",
+        "target": "esnext",
+        "moduleResolution": "NodeNext",
+        "sourceMap": true,
+        "declaration": true,
+        "declarationDir": "build/lib",
+        "outDir": "build/ts",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "allowJs": true,
+        "resolveJsonModule": true,
+        "forceConsistentCasingInFileNames": true,
+        "importHelpers": true,
+        "strict": true,
+    },
+    "exclude": [
+        "build"
+    ]
+}

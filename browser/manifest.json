@@ -1,0 +1,10 @@
+{
+	"id": "obsidian-os/browser",
+	"name": "Browser",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Provides an in-app browser",
+	"author": "Jake Schneider",
+	"authorUrl": "https://jschneiderprojects.com.au",
+	"isDesktopOnly": false
+}
