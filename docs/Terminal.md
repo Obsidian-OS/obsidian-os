@@ -1,0 +1,1 @@
+The terminal uses the Wayland compositor's functionality to run an Alacritty terminal in Obsidian, meaning anything from text editors to system monitors can be done
