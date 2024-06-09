@@ -1,22 +1,18 @@
 {
   "main": {
-    "id": "5ae74448f05c7e66",
+    "id": "0ca35d2e5f0c0857",
     "type": "split",
     "children": [
       {
-        "id": "7a59a43595eb4cd0",
+        "id": "be129aaefc24cff8",
         "type": "tabs",
         "children": [
           {
-            "id": "fd7d2d75e64d3192",
+            "id": "4029d51973dca45f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Terminal.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "obsidian-projects",
+              "state": {}
             }
           }
         ]
@@ -25,30 +21,20 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "65ec39877c86de1f",
+    "id": "0aef074d7f495372",
     "type": "split",
     "children": [
       {
-        "id": "bed53ae11d485a2c",
+        "id": "d032260a0f739a51",
         "type": "tabs",
         "children": [
           {
-            "id": "236f69637a39be0c",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
-            "id": "cdb43e88a4af2b85",
+            "id": "a6c46ca4b5dbf037",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:redox",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,34 +44,53 @@
             }
           },
           {
-            "id": "29b13563cac737c9",
+            "id": "18f377c8dba34312",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "c7a23f40b4c4873c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fc0dc9162f9bf4c5",
+            "type": "leaf",
+            "state": {
+              "type": "tagfolder-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 407.5,
+    "collapsed": true
   },
   "right": {
-    "id": "bc0b5dcc8c9dc181",
+    "id": "88a041f593f78586",
     "type": "split",
     "children": [
       {
-        "id": "f79236f4416fdd98",
+        "id": "57fd5a4fd011761e",
         "type": "tabs",
         "children": [
           {
-            "id": "5b4c080600b88d8f",
+            "id": "5f768107a2afb87c",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Terminal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +102,18 @@
             }
           },
           {
-            "id": "baaddd0acbde5780",
+            "id": "f7456a156d39a865",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Terminal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "905119a9716d902f",
+            "id": "002487ec20939d69",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,51 +124,71 @@
             }
           },
           {
-            "id": "c21eba0ff828adc5",
+            "id": "2124a777b03f9d97",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "docs/Terminal.md"
-              }
+              "state": {}
+            }
+          },
+          {
+            "id": "7363839367cb8f94",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 392.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-os/sysctl:Quick Settings": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "remotely-save:Remotely Save": false,
+      "obsidian-day-planner:Timeline": false,
+      "obsidian-projects:Open projects": false
     }
   },
-  "active": "fd7d2d75e64d3192",
+  "active": "4029d51973dca45f",
   "lastOpenFiles": [
-    "browser/node_modules/@types",
-    "browser/node_modules",
-    "browser/manifest.json",
-    "browser/tsconfig.json",
-    "browser/run.js",
-    "browser/makefile.json5",
-    "browser/src/log.ts",
-    "browser/src/index.ts",
-    "browser/src",
-    "browser/package.json",
-    "browser",
-    "Untitled.canvas",
-    "docs/Terminal.md",
-    "docs/System Control.md",
-    "docs/Browser.md",
-    "docs/Compositor.md",
+    "2024-06-09.md",
+    "Test.md",
+    "Redox/RFCs/A new namespacing system for Redox.md",
+    "2024-05-10.md",
+    "2024-05-09.md",
+    "2024-05-11.md",
+    "Redox/System/schemes/inputd.md",
+    "Redox/Nonprofit/Roadmap.md",
+    "Untitled Diagram.svg",
+    "Redox/RFCs/Untitled.md",
     "README.md",
-    "Welcome.md"
+    "Abitur/Russisch.md",
+    "Personal/Pasted image 20231118154155.png",
+    "Abitur/Russisch/Filme und Serien.md",
+    "Abitur/Abitur 2025.canvas",
+    "Abitur/Russisch/2023-10-29.md",
+    "Erika Documentation/Introduction to Erika.md",
+    "Erika Documentation/Installation.md",
+    "Erika Documentation/Desktop/Erika DB.md",
+    "Erika Documentation/Desktop/Application Sandbox.md",
+    "Ideas/AI Dating Game.md",
+    "Erika Documentation/compute/setup.md",
+    "Ziele.md",
+    "Personal/Nick's Rechner.pdf",
+    "Personal/Nick's Rechner.md",
+    "2023-11-05.md",
+    "Untitled.canvas"
   ]
 }
