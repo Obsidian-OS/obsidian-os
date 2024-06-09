@@ -1,6 +1,9 @@
-[submodule "browser"]
-	path = browser
+[submodule "packages/browser"]
+	path = packages/browser
 	url = git@github.com:Obsidian-OS/browser.git
-[submodule "sys-ctl"]
-	path = sys-ctl
+[submodule "packages/sys-ctl"]
+	path = packages/sys-ctl
 	url = git@github.com:Obsidian-OS/sys-ctl.git
+[submodule "packages/terminal"]
+	path = packages/terminal
+	url = git@github.com:Obsidian-OS/terminal

@@ -49,7 +49,13 @@ macro_rules! multi_error {
 
 multi_error! { global();
     ManualError = crate::error::ManualError;
-    IoError = std::io::Error
+    IoError = std::io::Error;
+    CalloopError = smithay::reexports::calloop::Error;
+    SeatError = smithay::backend::session::libseat::Error;
+    CreateDrmNodeError = smithay::backend::drm::CreateDrmNodeError;
+    InitError = smithay::reexports::wayland_server::backend::InitError;
+    Null = ();
+    InsertSeatNotifierError = smithay::reexports::calloop::InsertError<smithay::backend::session::libseat::LibSeatSessionNotifier>
 }
 
 pub type Result<T> = ::std::result::Result<T, global::Error>;

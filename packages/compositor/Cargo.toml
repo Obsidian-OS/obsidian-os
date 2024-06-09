@@ -6,4 +6,5 @@ edition = "2021"
 [dependencies]
 env_logger = "0.11.3"
 log = "0.4.21"
-smithay = "0.3.0"
+smithay = { git = "https://github.com/Smithay/smithay", features = ["wayland_frontend"] }
+backtrace = "0.3.71"
