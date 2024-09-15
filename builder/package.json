@@ -1,0 +1,20 @@
+{
+    "name": "builder",
+    "version": "1.0.0",
+    "main": "lib.js",
+    "type": "module",
+    "bin": {
+        "build": "./run.js"
+    },
+    "devDependencies": {
+        "@types/node": "latest",
+        "@j-cake/jcake-utils": "latest",
+        "chalk": "latest",
+        "esbuild": "latest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Obsidian-OS/obsidian-os.git"
+    },
+    "private": true
+}
