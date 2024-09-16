@@ -1,3 +1,6 @@
+[submodule "packages/automate"]
+	path = packages/automate
+	url = git@github.com:Obsidian-OS/automate
 [submodule "packages/browser"]
 	path = packages/browser
 	url = git@github.com:Obsidian-OS/browser.git
