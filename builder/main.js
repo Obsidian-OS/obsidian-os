@@ -1,4 +1,5 @@
 import * as fs from 'node:fs/promises';
+import * as url from 'node:url';
 import State from '@j-cake/jcake-utils/state';
 import {iterSync} from '@j-cake/jcake-utils/iter';
 import * as Format from '@j-cake/jcake-utils/args';
@@ -42,7 +43,7 @@ export default async function main(argv) {
         await config.setStateAsync(async prev => ({
             components: await fs.readFile(prev.root.join("package.json").path, 'utf8')
                 .then(pkg => prev.root.join(JSON.parse(pkg).build).path)
-                .then(pkg => import(pkg))
+                .then(pkg => import(url.pathToFileURL(pkg)))
                 .then(components => components.default)
                 .catch(err => log.err(err))
         }));
