@@ -4,6 +4,9 @@
 [submodule "packages/browser"]
 	path = packages/browser
 	url = git@github.com:Obsidian-OS/browser.git
+[submodule "packages/spreadsheet"]
+	path = packages/spreadsheet
+	url = git@github.com:Obsidian-OS/spreadsheet.git
 [submodule "packages/sys-ctl"]
 	path = packages/sys-ctl
 	url = git@github.com:Obsidian-OS/sys-ctl.git
