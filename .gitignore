@@ -3,3 +3,4 @@ node_modules/
 .obsidian/
 build
 target
+/packages/expression/Cargo.lock

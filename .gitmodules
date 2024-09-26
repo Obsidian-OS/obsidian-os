@@ -13,3 +13,6 @@
 [submodule "packages/terminal"]
 	path = packages/terminal
 	url = git@github.com:Obsidian-OS/terminal
+[submodule "packages/expression"]
+	path = packages/expression
+	url = git@github.com:Obsidian-OS/expressions.git
