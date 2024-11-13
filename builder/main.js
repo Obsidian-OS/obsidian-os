@@ -34,7 +34,7 @@ export default async function main(argv) {
             config.setState({out: new Path(next())});
 
         else if (i === '-b' || i === '--build')
-            config.setState({components: await import(next()).then(components => components.default)});
+            config.setState({components: await import(url.pathToFileURL(await fs.realpath(next()))).then(components => components.default)});
 
         else
             config.setState(prev => ({selected: [...prev.selected, i]}));
