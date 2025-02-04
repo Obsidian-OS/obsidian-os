@@ -1,0 +1,27 @@
+{
+    "name": "spreadsheet",
+    "build": "./build.js",
+    "version": "0.1.0",
+    "type": "module",
+    "dependencies": {
+        "logicx": "link:./build/mod"
+    },
+    "scripts": {
+        "build": "build phony:all phony:install",
+        "preinstall": "build build:main.wasm"
+    },
+    "devDependencies": {
+        "builder": "link:../../builder",
+        "obsidian": "latest",
+        "typescript": "latest"
+    },
+    "imports": {
+        "#mod/main.wasm": "./build/mod/logicx_bg.wasm",
+        "#mod/util.js": "./build/mod/logicx_bg.js"
+    },
+    "deploy": {
+        "main": "run.js",
+        "imports": {},
+        "scripts": null
+    }
+}
