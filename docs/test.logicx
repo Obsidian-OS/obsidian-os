@@ -1,0 +1,95 @@
+{
+  "components": {
+    "1": {
+      "id": 1,
+      "name": "and",
+      "inputs": [
+        "a",
+        "b"
+      ],
+      "outputs": [
+        "and"
+      ],
+      "driver": {
+        "TruthTable": {
+          "truth": {
+            "1": 0,
+            "0": 0,
+            "3": 1,
+            "2": 0
+          }
+        }
+      }
+    },
+    "2": {
+      "id": 2,
+      "name": "or",
+      "inputs": [
+        "a",
+        "b"
+      ],
+      "outputs": [
+        "or"
+      ],
+      "driver": {
+        "TruthTable": {
+          "truth": {
+            "3": 1,
+            "2": 1,
+            "1": 1,
+            "0": 0
+          }
+        }
+      }
+    },
+    "3": {
+      "id": 3,
+      "name": "input",
+      "inputs": [],
+      "outputs": [
+        "q"
+      ],
+      "driver": "Input"
+    },
+    "4": {
+      "id": 4,
+      "name": "output",
+      "inputs": [
+        "q"
+      ],
+      "outputs": [],
+      "driver": "Output"
+    },
+    "0": {
+      "id": 0,
+      "name": "not",
+      "inputs": [
+        "q"
+      ],
+      "outputs": [
+        "q!"
+      ],
+      "driver": {
+        "TruthTable": {
+          "truth": {
+            "1": 0,
+            "0": 1
+          }
+        }
+      }
+    }
+  },
+  "body": {
+    "0": {
+      "component": 3,
+      "label": "Input",
+      "pos": [
+        0.0,
+        0.0
+      ],
+      "orientation": 0.0
+    }
+  },
+  "connections": {},
+  "wires": []
+}
